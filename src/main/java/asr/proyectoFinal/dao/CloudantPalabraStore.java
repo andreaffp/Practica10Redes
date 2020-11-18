@@ -71,7 +71,7 @@ public class CloudantPalabraStore
 			return client;
 		} catch (Exception e) {
 			System.out.println("Unable to connect to database");
-			//e.printStackTrace();
+			e.printStackTrace();
 			return null;
 		}
 	}

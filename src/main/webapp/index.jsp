@@ -12,7 +12,12 @@
 <p>Opciones sobre la base de datos Cloudant de Andrea Farina</p>
 <ul>
 <li><a href="listar">Listar</a></li>
-<li><a href="insertar?palabra=AndreaFarina">Insertar</a></li>
+<li>Palabra en español:
+<form action="insertar" method="post">
+	<input type="text" name="palabra">
+	<button type="submit">Guardar en Cloudant</button>
+</form>
+</li>
 </ul>
 </body>
 </html>
